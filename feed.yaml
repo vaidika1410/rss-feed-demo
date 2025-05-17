@@ -1,0 +1,24 @@
+name: RSS Feed Validator
+
+on:
+  push:
+    paths:
+      - 'rss.xml'   # Only run when rss.xml is changed
+  pull_request:
+    paths:
+      - 'rss.xml'
+
+jobs:
+  validate-rss:
+    name: Validate RSS Feed
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 🧰 Install XML Validator (libxml2-utils)
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+
+      - name: ✅ Validate rss.xml with xmllint
+        run: xmllint --noout rss.xml

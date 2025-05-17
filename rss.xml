@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>TechVerse Daily</title>
+    <link>https://techversedaily.com</link>
+    <description>Latest insights on AI, web development, and cybersecurity</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 May 2025 14:00:00 GMT</lastBuildDate>
+    <managingEditor>editor@techversedaily.com (TechVerse Editor)</managingEditor>
+
+    <item>
+      <title>How GitHub Actions Changed My Dev Workflow</title>
+      <link>https://techversedaily.com/articles/github-actions-dev-workflow</link>
+      <description>A personal look at how CI/CD with GitHub Actions improved project quality and speed.</description>
+      <author>jane@techversedaily.com (Jane Doe)</author>
+      <pubDate>Thu, 15 May 2025 10:30:00 GMT</pubDate>
+      <guid isPermaLink="true">https://techversedaily.com/articles/github-actions-dev-workflow</guid>
+    </item>
+
+    <item>
+      <title>Building a Simple AI Chatbot in Python</title>
+      <link>https://techversedaily.com/tutorials/simple-python-chatbot</link>
+      <description>Step-by-step tutorial to create a beginner-friendly AI chatbot using Python and NLTK.</description>
+      <author>alex@techversedaily.com (Alex Rivera)</author>
+      <pubDate>Wed, 14 May 2025 09:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://techversedaily.com/tutorials/simple-python-chatbot</guid>
+    </item>
+
+    <item>
+      <title>Top 5 VS Code Extensions for Web Developers in 2025</title>
+      <link>https://techversedaily.com/tools/vscode-extensions-2025</link>
+      <description>Boost your productivity with these must-have Visual Studio Code extensions.</description>
+      <author>mia@techversedaily.com (Mia Patel)</author>
+      <pubDate>Tue, 13 May 2025 18:45:00 GMT</pubDate>
+      <guid isPermaLink="true">https://techversedaily.com/tools/vscode-extensions-2025</guid>
+    </item>
+
+  </channel>
+</rss>
