@@ -1,24 +1,32 @@
-name: RSS Feed Validator
+title: TechVerse Daily
+link: https://techversedaily.com
+description: Latest insights on AI, web development, and cybersecurity
+language: en-us
+lastBuildDate: Sat, 17 May 2025 14:00:00 GMT
+managingEditor: editor@techversedaily.com (TechVerse Editor)
 
-on:
-  push:
-    paths:
-      - 'rss.xml'   # Only run when rss.xml is changed
-  pull_request:
-    paths:
-      - 'rss.xml'
+items:
+  - title: How GitHub Actions Changed My Dev Workflow
+    link: https://techversedaily.com/articles/github-actions-dev-workflow
+    description: A personal look at how CI/CD with GitHub Actions improved project quality and speed.
+    author: jane@techversedaily.com (Jane Doe)
+    pubDate: Thu, 15 May 2025 10:30:00 GMT
+    guid: https://techversedaily.com/articles/github-actions-dev-workflow
+    enclosure:
+        length: 8727310
+        type: audio/x-m4a
+        url: http://example.com/podcast/everything/mthood.m4a
 
-jobs:
-  validate-rss:
-    name: Validate RSS Feed
-    runs-on: ubuntu-latest
+  - title: Building a Simple AI Chatbot in Python
+    link: https://techversedaily.com/tutorials/simple-python-chatbot
+    description: Step-by-step tutorial to create a beginner-friendly AI chatbot using Python and NLTK.
+    author: alex@techversedaily.com (Alex Rivera)
+    pubDate: Wed, 14 May 2025 09:00:00 GMT
+    guid: https://techversedaily.com/tutorials/simple-python-chatbot
 
-    steps:
-      - name: 📥 Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: 🧰 Install XML Validator (libxml2-utils)
-        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
-
-      - name: ✅ Validate rss.xml with xmllint
-        run: xmllint --noout rss.xml
+  - title: Top 5 VS Code Extensions for Web Developers in 2025
+    link: https://techversedaily.com/tools/vscode-extensions-2025
+    description: Boost your productivity with these must-have Visual Studio Code extensions.
+    author: mia@techversedaily.com (Mia Patel)
+    pubDate: Tue, 13 May 2025 18:45:00 GMT
+    guid: https://techversedaily.com/tools/vscode-extensions-2025

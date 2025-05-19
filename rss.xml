@@ -12,6 +12,11 @@
       <title>How GitHub Actions Changed My Dev Workflow</title>
       <link>https://techversedaily.com/articles/github-actions-dev-workflow</link>
       <description>A personal look at how CI/CD with GitHub Actions improved project quality and speed.</description>
+      <enclosure
+        length="8727310"
+        type="audio/x-m4a"
+        url="http://example.com/podcast/everything/mthood.m4a"
+      />
       <author>jane@techversedaily.com (Jane Doe)</author>
       <pubDate>Thu, 15 May 2025 10:30:00 GMT</pubDate>
       <guid isPermaLink="true">https://techversedaily.com/articles/github-actions-dev-workflow</guid>
